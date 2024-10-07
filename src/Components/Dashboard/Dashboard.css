@@ -1,0 +1,124 @@
+.cart-price{
+    font-weight:bolder !important;
+  }
+  .cart-detail{
+    height: 3.4em !important;
+    line-height: 2% !important;
+  }
+  .counter-arrow{
+  height: 10% !important;
+  }
+  .product-card{
+    border-radius: 20px !important;
+  }
+  
+  .shoeImage{
+  margin-left: -15%;
+  }
+  
+  .back-card {  
+      border-radius: 20px !important;
+  }
+  .back {
+      border-radius: 20px !important;
+      background-color: #E4E4E4 !important;
+  }
+  .font{
+      font-weight:bolder !important;
+      font-size: 30px !important; 
+      margin-top: -12px !important;
+  }
+  .font-cart{
+    font-weight:bold !important;
+    font-size: 18px !important; 
+  }
+  .fifty{
+      font-size: 110px !important;
+      font-weight:bolder !important;     
+      line-height: 1.2 !important; 
+      margin-top: 8px !important;
+  }
+  .percent-off{
+      font-size: 48px !important;
+      font-weight:bolder !important;
+      line-height: 1 !important;
+  }
+  .sneaker{
+    font-size: 18px !important;
+      font-weight:bolder !important;
+  }
+  /* focusing on responsiveness */
+  
+  .featured-banner-container {
+      display: flex;
+      flex-direction: row; /* By default, cards are side by side */
+      justify-content: center;
+      gap: 16px;
+      padding: 16px;
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .featured-banner-container {
+        flex-direction: column; 
+      }
+  
+      .w-full {
+        width: 100%;
+      }
+    
+      .h-96 {
+        height: auto; 
+      }
+    
+      /* Adjust margins for smaller screens */
+      .ml-32, .ml-80 {
+        margin-left: 0; 
+      }
+    
+      .shoeImage {
+        width: 200px;
+        height: 120px;
+      }
+    
+      .fifty {
+        font-size: 80px; 
+      }
+    
+      .percent-off {
+        font-size: 40px;
+      }
+    
+      .add-to-cart {
+        width: 80px; 
+      }
+    }
+    
+    /* For very small screens (mobile) */
+    @media (max-width: 576px) {
+      .shoeImage {
+        width: 180px;
+        height: 100px;
+      }
+    
+      .text-4xl {
+        font-size: 1.5rem;
+      }
+    
+      .font-bold {
+        font-size: 1.25rem;
+      }
+    
+      .fifty {
+        font-size: 60px;
+      }
+    
+      .percent-off {
+        font-size: 30px;
+      }
+    
+      .add-to-cart {
+        width: 70px;
+      }
+    }
+    
