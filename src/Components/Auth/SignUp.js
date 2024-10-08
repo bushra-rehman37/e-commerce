@@ -145,7 +145,16 @@ const SignUp = () => {
                 ),
               }}
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{ 
+
+                width: {
+                  xs: '90%', 
+                  sm: '80%',  
+                  md: '100%', 
+                  lg: '140%',
+                },
+
+                   marginBottom: '10px' }}
             />
 
             <TextField
@@ -165,7 +174,14 @@ const SignUp = () => {
                 ),
               }}
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{  
+                 width: {
+                xs: '90%', 
+                sm: '80%',  
+                md: '100%', 
+                lg: '140%',
+              }
+              , marginBottom: '10px' }}
             />
 
             <TextField
@@ -193,7 +209,13 @@ const SignUp = () => {
                 ),
               }}
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{   width: {
+                xs: '90%', 
+                sm: '80%',  
+                md: '100%', 
+                lg: '140%',
+              },
+               marginBottom: '10px' }}
             />
 
             <TextField
@@ -221,7 +243,12 @@ const SignUp = () => {
                 ),
               }}
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{   width: {
+                xs: '90%', 
+                sm: '80%',  
+                md: '100%', 
+                lg: '140%',
+              }, marginBottom: '10px' }}
             />
 
             <Button
@@ -232,7 +259,12 @@ const SignUp = () => {
                 backgroundColor: '#89089F',
                 color: '#fff',
                 padding: '12px 0',
-                width: '140%',
+                width: {
+                  xs: '90%', 
+                  sm: '80%',  
+                  md: '100%', 
+                  lg: '140%',
+                },
                 marginTop: '25px',
                 textTransform: 'none',
                 '&:hover': { backgroundColor: '#6e057a' },
@@ -252,7 +284,12 @@ const SignUp = () => {
                 color: '#89089F',
                 borderColor: '#89089F',
                 padding: '10px 0',
-                width: '140%',
+                width: {
+                  xs: '90%', 
+                  sm: '80%',  
+                  md: '100%', 
+                  lg: '140%',
+                },
                 marginTop:'15px',
                 textTransform: 'none',
                 '&:hover': { backgroundColor: '#89089F', color: '#fff' },

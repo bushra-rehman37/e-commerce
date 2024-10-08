@@ -141,7 +141,12 @@ const LogIn = () => {
                 ),
               }}
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{   width: {
+                xs: '90%', 
+                sm: '80%',  
+                md: '100%', 
+                lg: '140%',
+              }, marginBottom: '10px' }}
             />
 
             <TextField
@@ -170,14 +175,19 @@ const LogIn = () => {
               }}
 
               size="small"
-              sx={{ width: '140%', marginBottom: '10px' }}
+              sx={{   width: {
+                xs: '90%', 
+                sm: '80%',  
+                md: '100%', 
+                lg: '140%',
+              }, marginBottom: '10px' }}
             />
 
 
 <Typography
   variant="body2"
   className="w-full text-right mt-3 mb-2 cursor-pointer"
-  onClick={() => navigate('/forgotPassword')}
+  onClick={() => navigate('/forgot-password')}
   style={{ color: '#89089F', marginRight: '-40%',}}
 >
   Forgot password?
@@ -191,7 +201,12 @@ const LogIn = () => {
                 backgroundColor: '#89089F',
                 color: '#fff',
                 padding: '12px 0',
-                width: '140%',
+                width: {
+                  xs: '90%', 
+                  sm: '80%',  
+                  md: '100%', 
+                  lg: '140%',
+                },
                 marginTop: '15px',
                 textTransform: 'none',
                 '&:hover': { backgroundColor: '#6e057a' },
@@ -211,7 +226,12 @@ const LogIn = () => {
                 color: '#89089F',
                 borderColor: '#89089F',
                 padding: '10px 0',
-                width: '140%',
+                  width: {
+                  xs: '90%', 
+                  sm: '80%',  
+                  md: '100%', 
+                  lg: '140%',
+                },
                 marginTop:'15px',
                 textTransform: 'none',
                 '&:hover': { backgroundColor: '#89089F', color: '#fff' },
